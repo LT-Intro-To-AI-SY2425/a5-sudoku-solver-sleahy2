@@ -21,12 +21,15 @@ After completing the assignment, answer the following reflection questions:
 
 ## Reflection Questions
 
-1. How do the performance and efficiency of the Depth-First Search (DFS) and Breadth-First Search (BFS) algorithms compare when solving Sudoku puzzles? In what scenarios might one approach be preferable over the other?
+How do the performance and efficiency of the Depth-First Search (DFS) and Breadth-First Search (BFS) algorithms compare when solving Sudoku puzzles? In what scenarios might one approach be preferable over the other?
+
+DFS usually solves Sudoku puzzles faster because it explores one path deeply before backtracking, while BFS explores all options at each step, which can take more time. Use DFS for puzzles with fewer solutions and BFS for more complex situations.
+
+How did the choice of data structures (like the Stack for DFS and Queue for BFS) impact the implementation and functionality of the algorithms? Are there alternative data structures or design patterns that could have been used to achieve the same objectives?
+
+A Stack for DFS allows easy backtracking, while a Queue for BFS helps explore all options at the same level. Other structures like lists or recursion could replace these, but they wouldn’t change the basic idea of DFS or BFS.
+
+Considering the current implementation, how might the Sudoku solver be adapted or extended for larger puzzles or different types of grid-based logic games? How can the lessons learned from this assignment be applied to real-world problem-solving or optimization challenges?
 
 
-
-2. How did the choice of data structures (like the Stack for DFS and Queue for BFS) impact the implementation and functionality of the algorithms? Are there alternative data structures or design patterns that could have been used to achieve the same objectives?
-
-
-
-3. Considering the current implementation, how might the Sudoku solver be adapted or extended for larger puzzles or different types of grid-based logic games? How can the lessons learned from this assignment be applied to real-world problem-solving or optimization challenges?
+To handle larger puzzles, you can adjust the algorithm to consider more rules and options. The skills learned here, like systematic searching, can help with real-life issues, like planning tasks or managing resources more effectively.
